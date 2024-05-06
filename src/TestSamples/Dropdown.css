@@ -1,0 +1,20 @@
+.overall{
+    background-color:#fefae0;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid red;
+    min-height: 790px;
+}
+.questions{
+    line-height: 50px;
+    background-color: #57cc99;
+    color: white;
+    min-width: 300px;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 10px;
+    cursor: pointer;
+}

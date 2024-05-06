@@ -1,0 +1,22 @@
+
+.items_flex{
+    /* border: 2px solid red; */
+    text-align: center;
+    position: relative;
+    min-height: 50px;
+    margin: 1em;
+    min-width: 1470px;
+    padding: 2em;
+}
+.items_flex h1{
+    font-weight: 400;
+}
+.filterflex{
+    /* border: 2px solid #4400ff; */
+display: flex;
+padding: 1em;
+min-width: 1500px;
+min-height: 500px;
+margin-top: 60px;
+}
+

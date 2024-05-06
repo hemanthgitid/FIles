@@ -1,0 +1,39 @@
+.Outerwish{
+    margin: 5em;
+    display: flex;
+    flex-direction: column;
+    min-width: 1400px;
+    min-height: 700px;
+}
+.innerwish{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin:1em;
+}
+.innerwishp1{
+    padding: 2em;
+}
+.innerwishp2{
+    min-width: 600px;
+    padding: 3em;
+    line-height: 40px;
+}
+.innerwishp2 h1{
+    font-weight: 400;
+    cursor: pointer;   
+}
+.innerwishp2 h3,p{
+    font-weight: 100;
+    opacity: 0.9;
+}
+.innerwishp3{
+    min-width: 500px;
+    font-size: 22px;
+    cursor: pointer;
+    /* border: 2px solid red; */
+    line-height: 60px;
+    padding: 0.5em;
+    align-self: center;
+    text-align: center;
+}

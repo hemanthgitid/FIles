@@ -1,0 +1,25 @@
+
+#radio_color_select{
+    margin-Top: 1em;
+    min-height: 300px;
+    /* padding: 1em; */
+    /* border: 2px solid #ff0000; */
+    line-height: 60px;
+   
+}
+
+#radio_color_select h1{
+    /* border: 2px solid red; */
+    font-weight: 400;
+    font-size: 27px;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+
+
+#radio_color_select p span input{
+    
+    margin-top: 1.5em;
+    height: 20px;
+    cursor: pointer;
+}

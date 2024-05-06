@@ -1,0 +1,40 @@
+#filter_catergory{
+    margin-top: 3em;
+    /* border: 2px solid red; */
+    min-height: 750px;
+    padding: 1em;
+    line-height: 70px;
+}
+#filter_catergory #radio_select{
+    justify-content: space-around;
+    flex-direction: column;
+    /* padding-top: 3em; */
+    cursor: pointer;
+    min-height: 640px;
+    /* border: 2px solid green; */
+    display: flex;
+}
+#filter_catergory h1{
+    font-weight: 400;
+    font-size: 27px;
+
+    /* border: 2px solid red; */
+}
+#filter_catergory p{
+    font-size: 20px;
+    /* border: 2px solid rgb(3, 79, 229); */
+    max-height: 70px;
+    padding: 0.3em;
+    font-weight: 100;
+    display: flex;
+    border-bottom: 1px dotted black;
+    
+}
+#filter_catergory span input{
+    /* align-items: center; */
+  margin-top: 2em;
+    margin-right: 1em;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}

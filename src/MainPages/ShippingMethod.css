@@ -1,0 +1,54 @@
+.ShippingMethodmiddle{
+    display: flex;
+    /* border: 2px solid red; */
+    min-height: 630px;
+    display: flex;
+    flex-direction: column;
+    min-width: 600px;
+    margin: 4.5em;
+}
+.ShippingMethodmiddlepart1 h1{
+    font-size:40px;
+    font-weight: 400;
+    margin: 0.2em;
+}
+.ShippingMethodmiddlepart1 p{
+    margin: 0.7em;
+    font-weight: 100;
+    font-size: 18px;
+}
+.ShippingMethodmiddlepart1  table{
+    margin-top: 40px;
+}
+.ShippingMethodmiddlepart1 th{
+    font-weight: 400;
+}
+.ShippingMethodmiddlepart1 tr,td,th{
+    margin-top: 10em;
+    /* border: 2px solid red; */
+    outline: 1px solid rgb(227, 227, 227);
+    min-width: 470px;
+   font-size: 20px;
+    padding: 1.5em;
+    text-align: left;
+}
+tr:nth-child(even),th{
+    background-color:rgb(244, 244, 244);
+}
+.ShippingMethodmiddlepart2{
+    /* border: 2px solid red; */
+    padding-top: 2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+   max-width: 930px;
+    margin-top: 5em;
+    min-height: 260px;
+}
+.ShippingMethodmiddlepart2 h1{
+    font-weight: 400;
+    font-size: 38px;
+}
+.ShippingMethodmiddlepart2 p{
+    font-size: 19px;
+    font-weight: 100;
+}

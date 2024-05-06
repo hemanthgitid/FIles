@@ -1,0 +1,26 @@
+/* *{
+    font-size: 40px;
+
+} */
+.active{
+    color: yellow;
+}
+.inactive{
+    color: black;
+}
+.reat :hover{
+    color: yellow;
+transform:translateY(-300px);
+transition: all 0.1s ease-in-out 0.1s;
+cursor: pointer;
+}
+.iconsrating  {
+    background-color: rebeccapurple;
+    min-height: 100px;
+}
+.reat {
+    margin-left: 10px;
+    min-width: 50px;
+    min-height: 50px;
+   
+}

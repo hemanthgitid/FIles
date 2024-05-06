@@ -1,0 +1,74 @@
+.PlusandMinusinfaqdrop{
+    margin-left: 11em;
+    margin-right: 11em;
+    margin-top: 8em;
+}
+#PlusandMinusinfaqdrop1{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    /* border: 2px solid red; */
+    padding: 1em;
+    margin-bottom: 1em;
+}
+#PlusandMinusinfaqdrop1 span{
+    font-size: 27px;
+}
+
+#PlusandMinusinfaqdrop1out1{
+    background-color: white;
+    color: black;
+    display: none;
+    min-width: 1000px;
+    /* border: 2px solid red; */
+    min-height: 600px;
+    margin: 4em;
+}
+#PlusandMinusinfaqdrop1out1 div{
+    /* border: 2px solid green; */
+    max-width: 900px;
+    padding: 1em;
+}
+#PlusandMinusinfaqdrop1out1 div ol li{
+    line-height: 30px;
+    margin-left:3em;
+    text-align: left;
+    font-weight: 100;
+    opacity: 0.8;
+    font-size: 20px;
+    margin-top: 0.3em;
+}
+#PlusandMinusinfaqdrop1out1 div h1{
+    margin-bottom: 0.5em;
+    font-weight: 400;
+}
+#PlusandMinusinfaqdrop1out2{
+    /* display: none; */
+}
+#PlusandMinusinfaqdrop2{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    /* border: 2px solid red; */
+    padding: 1em;
+}
+#PlusandMinusinfaqdrop2 span{
+    font-size: 27px;
+}
+#PlusandMinusinfaqdrop1out2 {
+    display: none;
+    
+}
+#PlusandMinusinfaqdrop1out2 p{
+    /* border: 2px solid red; */
+    margin-top: 2em;
+    /* margin-left: 4em; */
+    /* margin-right: 4em; */
+    line-height: 30px;
+    padding: 2em;
+    font-size: 20px;
+    font-weight: 100;
+    opacity: 0.8;
+}

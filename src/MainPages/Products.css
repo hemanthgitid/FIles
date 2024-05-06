@@ -1,0 +1,13 @@
+.shop_cart{
+    min-height: 200px;
+    padding: 2em;
+    display: flex;
+    flex-wrap: wrap;
+}
+.shop_cart div{
+    position: relative;
+    max-width: 400px;
+    margin: 0.5em;
+    line-height: 30px;
+    min-height: 430px;
+}

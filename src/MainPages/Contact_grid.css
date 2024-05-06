@@ -1,0 +1,134 @@
+.Contact_grid_box{
+    min-width: 1400px;
+    min-height: 1000px;
+    /* border: 2px solid red; */
+}
+.Contact_grid_box_head{
+    min-width:1100px;
+    min-height: 300px;
+    display: flex;
+    /* border: 2px solid red; */
+}
+.Contact_grid_box_head div{
+    min-width: 200px;
+    /* border: 2px solid red; */
+    min-height: 10px;
+}
+.left_contact{
+    margin: 3em;
+    min-width: 400px;
+    padding: 2em;
+    max-height: 200px;
+    line-height: 50px;
+}
+.left_contact h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.left_contact p{
+    opacity: 0.7;
+    font-size: 19px;
+}
+#contact_address_permanant{
+    display: grid;
+    margin-left: 130px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6em;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    max-height: 150px;
+    grid-template-columns:auto auto;
+    /* border: 2px solid rgb(18, 234, 14); */
+    /* background-color: rgb(243, 21, 21); */
+    min-width: 500px;
+}
+#contact_address_permanant div{
+    /* border: 4px solid blue; */
+    padding: 0.6em;
+}
+#contact_address_permanant div:nth-child(odd){
+    font-size: 28px;
+    font-weight: 400;
+}
+#contact_address_permanant div:nth-child(even){
+    font-size: 20px;
+    opacity: 0.7;
+    font-weight: 100;
+}
+.Contact_grid_box_form{
+    display: flex;
+}
+.contact_form{
+    /* border: 2px solid red; */
+    min-width: 1080px;
+    margin-top: 3em;
+    min-height: 780px;
+}
+.contact_form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 1000px;
+    /* border: 2px solid black; */
+}
+.contact_form form div{
+    /* border: 2px solid rgb(9, 212, 39); */
+    line-height: 50px;
+}
+.contact_form form label{
+    font-size: 26px;
+    font-weight: 400;
+}
+.contact_form form input[type="text"],.contact_form form input[type="email"]{
+    min-width: 1000px;
+    min-height: 70px;
+    border: none;
+    font-size:24px;
+    opacity: 0.6;
+    outline: none;
+    border-bottom:1px solid black;
+}
+.contact_form form input::placeholder,.contact_form form textarea::placeholder{
+    font-size: 24px;
+    font-weight: 100;
+}
+.contact_form form textarea{
+    border: none;
+    outline: none;
+    font-size:24px;
+    opacity: 0.6;
+    border-bottom: 1px solid black;
+}
+#contact_form_subscribe span{
+font-size: 18px;
+margin-left: 14px;
+font-weight: 100;
+}
+.contact_form form input[type="checkbox"]{
+    width: 30px;
+    height: 15px;
+}
+.contact_form form input[type="submit"]{
+    min-width: 220px;
+    min-height: 80px;
+    background-color: black;
+    color: white;
+    font-size: 23px;
+    margin-top: 2em;
+}
+.contact_form form input[type="submit"]:hover{
+    /* border: 2px solid black; */
+    background-color: white;
+    color: black;
+    transition: all 0.2s linear 0.1s;
+}
+#Contact_grid_box_map_box2{
+    /* border: 2px solid red; */
+    position: relative;
+        left: 420px;
+        margin: 5em;
+        min-width: 200px;
+        display: inline-flex;
+}

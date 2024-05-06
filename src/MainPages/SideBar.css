@@ -1,0 +1,12 @@
+*{
+    scroll-behavior: smooth;
+}
+.apply_fiter{
+    /* border: 2px solid rgb(104, 240, 19); */
+    min-width: 300px;
+    display: flex;
+   min-height: 1000px;
+   padding: 1em;
+    flex-direction: column;
+}
+

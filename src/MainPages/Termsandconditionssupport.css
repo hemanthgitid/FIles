@@ -1,0 +1,44 @@
+.termsandconditionssupport{
+    /* border: 2px solid red; */
+    min-width: 200px;
+    min-height: 550px;
+}
+.termsandconditionssupport h1{
+    font-size:70px;
+    font-weight: 400;
+    margin-left: 600px;
+    margin-bottom: 80px;
+}
+.termsandconditionssupporticons{
+    margin: 2em;
+    display: flex;
+    min-width: 1500px;
+    position: relative;
+    min-height: 300px;
+    justify-content: space-around;
+    /* border: 2px solid green; */
+}
+
+.termsandconditionssupporticons div{
+    min-width: 360px;
+    font-size: 100px;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0.1px 0.1px 1px rgb(182, 181, 181);
+}
+.termsandconditionssupporticons div span{
+    position: absolute;
+    top: 200px;
+    margin: 0.6em;
+    font-size: 35px;
+}
+.icon:hover{
+    box-shadow: 1px 1px 10px rgb(208, 206, 206);
+    transform: scale(1);
+    transition: all 0.2s linear 0.1s;
+}
+.termsandconditionssupporticons div:hover #col{
+    color: rgb(233, 145, 14);
+}

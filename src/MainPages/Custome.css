@@ -1,0 +1,182 @@
+.cusouter{
+    display: flex;
+    /* border: 2px solid red; */
+    min-width:1500px;
+    min-height: 600px;
+    flex-direction: column;
+}
+.cushead{
+    /* border: 2px solid blue; */
+    min-width: 700px;
+    padding: 1em;
+    margin: 3em;
+    display: flex;
+    min-height: 200px;
+}
+
+.cusheadpart1{
+    min-height: 400px;
+    /* border: 2px solid  black; */
+    padding: 2em;
+    max-width: 800px;
+    line-height: 60px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+.cusheadpart1 div p{
+    font-size: 21px;
+    font-weight: 100;
+    /* border: 2px solid red; */
+}
+.cusheadpart1 div h1 {
+    font-size:45px;
+    font-weight: 400;
+}
+.cusheadpart1 div h1 span{
+    color: rgb(243, 153, 44);
+}
+.cusheadpart2{
+    min-width: 150px;
+    min-height: 140px;
+}
+
+.cusmat{
+    /* border: 2px solid red; */
+    min-width: 1500px;
+    min-height: 570px;
+    margin: 3em;
+    padding: 2em;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+.cusmatbor{
+    border-radius: 0% 0% 30% 30%;
+    border-bottom:6px solid  rgb(247, 204, 139);  
+    /* border: 2px solid black; */
+    line-height: 50px;
+}
+.cusmatbor div h1{
+    text-align: center;
+    margin: 0.3em;
+    font-weight: 400;
+}
+.cusmatbor div p{
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+}
+.cusmatimg{
+    background-color:#fae8d8;
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+    /* border: 2px solid red; */
+    position: relative;
+}
+.cusmatimg img{
+    position: absolute;
+    left:28px;
+    top: 33px;
+    mix-blend-mode: multiply;
+    z-index: 1;
+    filter:brightness(1.1);
+    border-radius: 50%;
+    box-shadow: 0 0 10px grey;
+}
+.cusformsub{
+    margin: 3em;
+    /* border: 2px solid red; */
+    min-width: 1400px;
+    padding: 1em;
+    min-height: 850px;
+    justify-content: space-around;
+    display: flex;
+}
+.cusformsubimg img{
+    max-width: 780px;
+    min-height: 800px;
+    /* border: 2px solid rgb(18, 3, 3); */
+}
+.cusformsubpart2{
+  /* border: 2px solid rgb(15, 10, 10); */
+  min-width: 635px;
+  min-height: 800px;
+  padding:1em;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.cusformsubpart2 div{
+    line-height: 40px;
+    /* border: 2px solid blue; */
+    padding: 1em;
+}
+
+.cusformsubpart2 div label{
+margin-right:1em;
+}
+
+
+.cusformsubpart2 div input[type="text"]{
+min-width: 370px;
+height: 30px;
+outline: none;
+font-size: 20px;
+border: none;
+border-bottom: 1px solid grey;
+margin-left: 1.5em;
+}
+.cusformsubpart2 div input[type="email"]
+{
+    font-size: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid grey;
+    min-width: 375px;
+    min-height: 30px;
+    margin-left: 1.5em;
+
+}
+.cusformsubpart2 div select{
+    text-align: center;
+    min-width: 370px;
+    min-height: 30px;
+    margin-left: 3.6em;
+}
+.custextarea{
+    display: flex;
+    flex-direction: row;
+}
+.custextarea textarea{
+    border:none;
+    outline: none;
+    font-size: 18px;
+    border-bottom: 1px solid grey;
+    margin-left: 1em;
+}
+
+.cusformsubpart2 div input[type="file"]
+{
+margin-left: 1em;
+}
+.cusformsubpart2 div input[type="submit"]:hover{
+    background-color: black;
+    color: white;
+}
+.cusformsubpart2 div input[type="submit"]{
+    padding: 0.6em;
+    min-width: 400px;
+    min-height: 20px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    left: 60px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 2px solid rgb(9, 9, 9);
+    color: black;
+    background-color: white;
+}
